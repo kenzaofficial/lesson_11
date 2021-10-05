@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+@font-face {
+	font-family: "Helvetica";
+	src: url("HelveticaNeueCyr-Black.woff2") format("woff2"), url("HelveticaNeueCyr-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica";
+	src: url("HelveticaNeueCyr-Roman.woff2") format("woff2"), url("HelveticaNeueCyr-Roman.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+.header {
+	margin-bottom: 50px;
+	padding: 30px;
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #71ac85;
+}
+
+.footer {
+	padding: 30px;
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #71ac85;
+}
+
+/*Задание по макету  cutspace*/
+
+.main {
+	padding: 0 10px;
+}
+
+/*advantages---------------------------*/
+/*универсальный блок*/
+.title {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 148%;
+	letter-spacing: 0.8px;
+}
+
+/*универсальный блок*/
+.text {
+	font-size: 16px;
+	line-height: 169%;
+	letter-spacing: 1.15px;
+}
+
+/*универсальный блок*/
+.button {
+	display: inline-block;
+	padding: 0 39px;
+	font-weight: 700;
+	line-height: 58px;
+	border-radius: 28px;
+}
+
+.advantages {
+	margin-bottom: 30px;
+	padding: 30px;
+	max-width: 435px;
+	/*фон для наглядности*/
+	background-color: #f3fd64;
+}
+
+.advantages__title {
+	margin-bottom: 20px;
+}
+
+.advantages__description {
+	margin-bottom: 40px;
+}
+
+.advantages__text {
+	margin-bottom: 20px;
+}
+
+.advantages__text--last {
+	margin: 0;
+}
+
+.advantages__button {
+	color: #fff;
+	background-color: #f78434;
+}
+
+/*seller---------------------------*/
+.seller {
+	margin-bottom: 30px;
+	padding: 40px 88px;
+	max-width: 540px;
+	text-align: center;
+	/*фон для наглядности*/
+	background-color: #f3fd64;
+	border-radius: 10px;
+}
+
+.seller__icon {
+	margin-bottom: 15px;
+}
+
+.seller__description {
+	margin-bottom: 25px;
+}
+
+.seller__button {
+	color: #f78434;
+}
+
+.seller__button:hover {
+	outline: 1px solid #f78434;
+}
+
+/*Reviews---------------*/
+.reviews {
+	margin-bottom: 30px;
+	max-width: 350px;
+	/*фон для наглядности*/
+	background-color: #f3fd64;
+}
+
+.reviews__description {
+	padding: 30px;
+}
+
+.reviews__img {
+	border-radius: 5px 5px 0 0;
+}
+
+.reviews__text {
+	margin-bottom: 20px;
+}
+
+.reviews__name {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 0.6000000238418579px;
+}
+
+.reviews__city {
+	color: #58bebf;
+}
+
+/*Задание по макету  healthy food*/
+
+/*article---------------*/
+.article {
+	margin-bottom: 30px;
+	padding: 24px 24px 60px;
+	max-width: 255px;
+	font-family: Helvetica, sans-serif;
+	background-color: #252525;
+	border-radius: 6px;
+}
+
+.article__title {
+	margin-bottom: 10px;
+	font-size: 22px;
+	line-height: 118%;
+	letter-spacing: -0.2750000059604645px;
+	color: white;
+}
+
+.article__title-underline {
+	display: block;
+	margin-bottom: 24px;
+	max-width: 56px;
+	height: 2px;
+	background-color: #34c759;
+}
+
+.article__text {
+	font-size: 13px;
+	line-height: 138%;
+	letter-spacing: -0.1625px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+/*meals---------------*/
+.meals {
+	margin-bottom: 30px;
+	max-width: 350px;
+	font-family: Helvetica, sans-serif;
+	color: white;
+	background-color: #252525;
+	border-radius: 6px;
+}
+
+.meals__img {
+	margin-bottom: 29px;
+}
+
+.meals__description {
+	padding: 30px 25px;
+}
+
+.meals__title {
+	font-size: 32px;
+	line-height: 93.75%;
+	color: #d9d9d9;
+}
+
+.meals__subtitle {
+	margin-bottom: 20px;
+	font-family: Helvetica Neue;
+	font-size: 12px;
+	line-height: 133%;
+	letter-spacing: -0.15000000596046448px;
+	color: #a4a8b2;
+}
+
+.meals__text {
+	margin-bottom: 24px;
+	font-size: 13px;
+	line-height: 138%;
+	letter-spacing: -0.16249999403953552px;
+	color: #85878c;
+}
+
+.meals__rating {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.meals__rating img {
+	vertical-align: -20%;
+}
+
+.meals__rating-value {
+	margin-right: 30px;
+	font-size: 12px;
+	font-weight: 900;
+	line-height: 250%;
+	letter-spacing: 1.5px;
+	color: #b3b3b3;
+}
+
+.meals__button {
+	display: inline-block;
+	padding: 0 32px;
+	font-size: 10px;
+	font-weight: 900;
+	line-height: 40px;
+	letter-spacing: 0.2em;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.5);
+	border-radius: 30px;
+	border: 2px solid #303030;
+}
+
+.meals__button:hover {
+	color: #ffff00;
+	border-color: #ffff00;
+}
