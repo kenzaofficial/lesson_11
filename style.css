@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+@font-face {
+	font-family: "Helvetica";
+	src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"),
+		url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+.header {
+	margin-bottom: 50px;
+	padding: 30px;
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #71ac85;
+}
+
+.footer {
+	padding: 30px;
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #71ac85;
+}
+
+.main {
+	padding: 0 10px;
+}
+
+.test-btn {
+	margin-bottom: 30px;
+	display: inline-block;
+	padding: 20px;
+	color: #fff;
+	background: #1fda5d;
+	border-radius: 10%;
+}
+
+.test-btn:hover {
+	color: #fdcc45;
+	background: #ff0000;
+}
+
+.test-btn:visited {
+	color: #4169e1;
+}
+
+.test-btn:focus {
+	color: #ff0000;
+}
+
+.test-btn:active {
+	color: #fff;
+	outline: 5px solid #ff0000;
+}
+
+.footer:target {
+	color: red;
+}
+
+.list {
+	margin: 0px 0px 50px 0px;
+	text-align: center;
+}
+
+.list__item:first-child {
+	color: green;
+}
+
+.list__item span:first-of-type {
+	color: red;
+}
+
+.list__item {
+	margin: 0 auto 20px;
+	padding: 20px;
+	max-width: 500px;
+	background-color: salmon;
+	border-radius: 10px;
+}
+
+.list__item span {
+	display: inline-block;
+	font-size: 20px;
+	color: #fdcc45;
+}
+
+.list__item p *:first-child {
+	color: indigo;
+}
+
+.list__item:last-child {
+	font-size: 40px;
+}
+
+.list__item span:last-child {
+	font-size: 5px;
+}
+
+.list__item:nth-child(odd) {
+	background: #4169e1;
+}
+
+.list__item:nth-child(even):hover {
+	background: red;
+}
+
+.list__item:not(:last-child) {
+	padding-right: 202px;
+}
+
+.list__item::first-line {
+	text-decoration: underline;
+}
+
+/*недействует на строчный?*/
+.list__item p span::first-letter {
+	font-size: 60px;
+}
+
+.list__item::before {
+	display: block;
+	margin: -30px 0 0 0;
+	content: "";
+	width: 150px;
+	height: 1px;
+	background: #ff0000;
+}
+
+.list__item:hover::before {
+	background: #4169e1;
+	width: 100%;
+}
+
+/*Car Repair and Doggie*/
+
+.promise {
+	margin-bottom: 30px;
+}
+
+.promise__container {
+	padding: 50px 0;
+	/*фон для наглядности*/
+	background: #fdcc45;
+	border-radius: 5px;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 30px 20px;
+	max-width: 1040px;
+}
+
+.promise__overtitle {
+	margin-bottom: 30px;
+	padding-left: 30px;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 200%;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5d62b5;
+}
+
+.promise__overtitle::before {
+	display: block;
+	content: url(../img/overline__doggie.png);
+	margin: 0 0 -33px -30px;
+}
+
+.promise__title {
+	margin-bottom: 30px;
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 42px;
+	letter-spacing: 0px;
+	color: #000;
+}
+
+.promise__list {
+	padding-top: 30px;
+	font-size: 0;
+}
+
+.promise__item {
+	display: inline-block;
+	padding-left: 80px;
+	max-width: 325px;
+	vertical-align: top;
+}
+
+.promise__item :not(:last-child) {
+	margin-right: 24px;
+}
+
+.promise__item::before {
+	display: block;
+	margin: 0 0 -24% -35%;
+}
+
+.promise__item-01::before {
+	content: url(../img/item_01.png);
+}
+
+.promise__item-02::before {
+	content: url(../img/item_02.png);
+}
+
+.promise__item-03::before {
+	content: url(../img/item_03.png);
+}
+
+.promise__item-title {
+	margin-bottom: 20px;
+	font-size: 19px;
+	font-weight: 900;
+	line-height: 26px;
+	letter-spacing: 0px;
+	color: #f2726f;
+}
+
+.promise__item-text {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+
+/*article*/
+
+.article {
+	margin-bottom: 30px;
+	padding: 24px 24px 60px;
+	max-width: 255px;
+	font-family: Helvetica, sans-serif;
+	background-color: #252525;
+	border-radius: 6px;
+}
+
+.article:hover {
+	background: #34c759;
+}
+
+.article__title {
+	margin-bottom: 10px;
+	font-size: 22px;
+	line-height: 118%;
+	letter-spacing: -0.275px;
+	color: #fff;
+}
+
+.article:hover .article__title,
+.article:hover .article__text {
+	color: #000;
+}
+
+.article__title::after {
+	display: inline-block;
+	content: "";
+	width: 58px;
+	height: 2px;
+	background: #34c759;
+}
+
+.article:hover .article__title::after {
+	background: #000;
+}
+
+.article__title-underline {
+	display: block;
+	margin-bottom: 24px;
+	max-width: 56px;
+	height: 2px;
+	background-color: #34c759;
+}
+
+.article__text {
+	font-size: 13px;
+	line-height: 138%;
+	letter-spacing: -0.1625px;
+	color: rgba(255, 255, 255, 0.5);
+}
